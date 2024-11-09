@@ -1,0 +1,68 @@
+
+                                      ARENA Simulation Results
+                                               marwane
+
+                                  Summary for Replication 1 of 1
+
+Project: Unnamed Project                                             Run execution date : 6/14/2024
+Analyst: Rockwell Automation                                         Model revision date: 6/14/2024
+
+Replication ended at time      : 480.0 Minutes 
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+INFORMATION.VATime                          .00000     (Insuf)    .00000     .00000          1    
+INFORMATION.NVATime                         .00000     (Insuf)    .00000     .00000          1    
+INFORMATION.WaitTime                        .00000     (Insuf)    .00000     .00000          1    
+INFORMATION.TranTime                        .00000     (Insuf)    .00000     .00000          1    
+INFORMATION.OtherTime                       .00000     (Insuf)    .00000     .00000          1    
+INFORMATION.TotalTime                       .00000     (Insuf)    .00000     .00000          1    
+SOUS_ENSEMBLE.VATime                        5.7338     (Insuf)    5.0000     7.0000        139    
+SOUS_ENSEMBLE.NVATime                       .00000     (Insuf)    .00000     .00000        139    
+SOUS_ENSEMBLE.WaitTime                      220.17     (Insuf)    .00000     465.00        139    
+SOUS_ENSEMBLE.TranTime                      .00000     (Insuf)    .00000     .00000        139    
+SOUS_ENSEMBLE.OtherTime                     .00000     (Insuf)    .00000     .00000        139    
+SOUS_ENSEMBLE.TotalTime                     225.91     (Insuf)    5.0000     470.00        139    
+TANGER1.Queue.WaitingTime                   .00000     (Insuf)    .00000     .00000         88    
+RACK_A_B.Queue.WaitingTime                  221.01     (Insuf)    .00000     465.00        140    
+TANGER2.Queue.WaitingTime                   .00000     (Insuf)    .00000     .00000         52    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+INFORMATION.WIP                             .00000     (Insuf)    .00000     1.0000     .00000    
+SOUS_ENSEMBLE.WIP                           66.420     (Insuf)    .00000     140.00     1.0000    
+MACHINE_TANGER2.NumberBusy                  .75000     (Insuf)    .00000     1.0000     1.0000    
+MACHINE_TANGER2.NumberScheduled             1.0000     (Insuf)    1.0000     1.0000     1.0000    
+MACHINE_TANGER2.Utilization                 .75000     (Insuf)    .00000     1.0000     1.0000    
+MACHINE_TANGER1.NumberBusy                  .91667     (Insuf)    .00000     1.0000     .00000    
+MACHINE_TANGER1.NumberScheduled             .92708     (Insuf)    .00000     1.0000     1.0000    
+MACHINE_TANGER1.Utilization                 .91667     (Insuf)    .00000     1.0000     .00000    
+TANGER1.Queue.NumberInQueue                 .00000     (Insuf)    .00000     .00000     .00000    
+RACK_A_B.Queue.NumberInQueue                64.462     (Insuf)    .00000     138.00     .00000    
+TANGER2.Queue.NumberInQueue                 .00000     (Insuf)    .00000     .00000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+INFORMATION.NumberIn                        1.0000    
+INFORMATION.NumberOut                       1.0000    
+SOUS_ENSEMBLE.NumberIn                      140.00    
+SOUS_ENSEMBLE.NumberOut                     139.00    
+MACHINE_TANGER2.NumberSeized                52.000    
+MACHINE_TANGER2.ScheduledUtilization        .75000    
+MACHINE_TANGER1.NumberSeized                88.000    
+MACHINE_TANGER1.ScheduledUtilization        .98876    
+System.NumberOut                            140.00    
+
+
+Simulation run time: 12.57 minutes.
+Simulation run complete.
